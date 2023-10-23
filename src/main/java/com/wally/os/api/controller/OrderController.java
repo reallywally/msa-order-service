@@ -1,7 +1,7 @@
-package com.wally.os.controller;
+package com.wally.os.api.controller;
 
-import com.wally.os.entity.Order;
-import com.wally.os.service.OrderService;
+import com.wally.os.api.entity.Order;
+import com.wally.os.api.service.OrderService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

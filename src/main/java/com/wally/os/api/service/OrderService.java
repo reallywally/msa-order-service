@@ -1,7 +1,7 @@
-package com.wally.os.service;
+package com.wally.os.api.service;
 
-import com.wally.os.entity.Order;
-import com.wally.os.repository.OrderRepository;
+import com.wally.os.api.entity.Order;
+import com.wally.os.api.repository.OrderRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

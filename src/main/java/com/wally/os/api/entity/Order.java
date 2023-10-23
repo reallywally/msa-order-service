@@ -1,4 +1,4 @@
-package com.wally.os.entity;
+package com.wally.os.api.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
@@ -9,13 +9,13 @@ import lombok.NoArgsConstructor;
 
 @Data
 @Entity
-@Table(name = "order")
+@Table(name = "order_tb")
 @NoArgsConstructor
 @AllArgsConstructor
 public class Order {
     @Id
     private int id;
     private String name;
-    private String qty;
+    private int qty;
     private double price;
 }
