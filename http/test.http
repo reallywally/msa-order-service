@@ -1,8 +1,0 @@
-### TEST
-POST http://localhost:8081/api/order
-Content-Type: application/json
-
-{
-  "skuCode": "iphone_15",
-  "quantity": 1001
-}
